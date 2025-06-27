@@ -1,6 +1,6 @@
 public class GenericArray {
     
-    public static <T> void printArray(T[] array){
+    public static <T> void printArray(T[] array){ //<T> for type defination and void for return types
         for(T element : array){
             System.out.println(element);
         }
