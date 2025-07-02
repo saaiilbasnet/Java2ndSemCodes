@@ -32,7 +32,7 @@ public class BasicCalculatorApp{
 
 //    Main Method
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); //object instantaion
         double num1, num2;
         // String operator;
 
