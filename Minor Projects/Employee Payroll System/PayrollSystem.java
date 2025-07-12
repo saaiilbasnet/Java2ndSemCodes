@@ -7,6 +7,7 @@ public class PayrollSystem {
         Employee[] employees = {e1, e2, e3};
 
         for (Employee emp : employees) {
+
             emp.displayDetails();
             System.out.println("Salary: $" + emp.calculateSalary() + "\n");
         }

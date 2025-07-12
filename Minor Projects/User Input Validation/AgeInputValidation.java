@@ -31,8 +31,6 @@ public class AgeInputValidation {
 
         } catch (InvalidAgeException e) {
             System.out.println("Invalid Age: " + e.getMessage());
-        } finally {
-            scanner.close();
         }
     }
 }
